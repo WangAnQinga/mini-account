@@ -1,0 +1,12 @@
+{
+    "appenders": {
+      "console": { "type": "console" },
+      "file": { "type": "file", "filename": "logs/log4jsconnect.log" },
+      "dateFile":{"type":"dateFile","filename":"logs/log_date/","pattern":".yyyy-MM-dd-hh.log","alwaysIncludePattern":true}
+    },
+    "categories": {
+      "default": { "appenders": ["console"], "level": "debug" },
+      "log4jslog": { "appenders": ["file"], "level": "debug" },
+      "log4jslogDate": { "appenders": ["dateFile"], "level": "debug" }
+    }
+}

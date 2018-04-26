@@ -1,0 +1,7 @@
+.vscode/
+node_modules/
+error.log
+logs/
+*.log
+ipBlock.log
+npm-debug.log
